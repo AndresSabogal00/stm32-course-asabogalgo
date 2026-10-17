@@ -62,8 +62,3 @@ target_link_directories(${PROJECT_NAME} PRIVATE
 target_link_libraries(${PROJECT_NAME} PRIVATE
   # Add additional linker libraries here
 )
-target_include_directories(${PROJECT_NAME} PRIVATE
-    Drivers/CMSIS/Device/ST/STM32F4xx/Include
-    Drivers/CMSIS/Include
-)
-target_compile_definitions(${PROJECT_NAME} PRIVATE STM32F411xE)
